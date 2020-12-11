@@ -13,10 +13,9 @@ class GenericTests {
 	}
 	
 	@Test
-	public void testMultiplyCorectitudine() {
-		int rezultat=gen.multiplyAndSquare(2, 3);
-		int rezultatAsteptat=36;
-		assertEquals(rezultatAsteptat, rezultat);
+	public void testConcatAndUpper() {
+		String result = gen.concatAndUpper("hello", "KiTty");
+		assertEquals("HELLOKITTY",result);
 	}
 
 }

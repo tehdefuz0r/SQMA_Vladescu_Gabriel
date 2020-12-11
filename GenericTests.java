@@ -18,12 +18,5 @@ class GenericTests {
 		int rezultatAsteptat=36;
 		assertEquals(rezultatAsteptat, rezultat);
 	}
-	
-	@Test
-	public void testConcatAndUpper() {
-		String result = gen.concatAndUpper("hello", "KiTty");
-		assertEquals("HELLOKITTY",result);
-	}
-	
 
 }

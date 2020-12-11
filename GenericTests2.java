@@ -1,10 +1,9 @@
-import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class GenericTests2 {
+public class GenericTests2 {
 	Generic gen;
 	
 	@Before
@@ -14,10 +13,9 @@ class GenericTests2 {
 	
 	@Test
 	public void testMultiplyCorectitudine() {
-		int rezultat=gen.multiplyAndSquare(2, 3);
+		int rezultat=Generic.multiplyAndSquare(2, 3);
 		int rezultatAsteptat=36;
 		assertEquals(rezultatAsteptat, rezultat);
 	}
 	
-
 }

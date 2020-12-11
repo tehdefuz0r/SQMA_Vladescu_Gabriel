@@ -1,10 +1,9 @@
 import static org.junit.Assert.assertEquals;
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.Before;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
-class GenericTests {
+public class GenericTests {
 	Generic gen;
 	
 	@Before
@@ -12,9 +11,10 @@ class GenericTests {
 		gen=new Generic();
 	}
 	
+	
 	@Test
 	public void testConcatAndUpper() {
-		String result = gen.concatAndUpper("hello", "KiTty");
+		String result = Generic.concatAndUpper("hello", "KiTty");
 		assertEquals("HELLOKITTY",result);
 	}
 

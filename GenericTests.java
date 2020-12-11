@@ -15,7 +15,7 @@ public class GenericTests {
 	@Test
 	public void testConcatAndUpper() {
 		String result = Generic.concatAndUpper("hello", "KiTty");
-		assertEquals("HELLOKITY",result);
+		assertEquals("HELLOKITTY",result);
 	}
 
 }
